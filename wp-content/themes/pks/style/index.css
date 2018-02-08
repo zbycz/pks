@@ -1,0 +1,414 @@
+/*
+Theme Name: PKS theme
+Theme URI: http://prazskykomornisbor.cz/
+Description: Design by clevis.cz
+Version: 1.0
+Author: clevis.cz
+Author URI: http://clevis.cz/
+*/
+
+
+
+/**
+ * Typography
+ */
+body {
+	margin: 0;
+	padding: 0;
+	font: 80%/130% sans-serif;
+	color: #80694E;
+	background: #FFF url(../graphics/body/index.jpg) no-repeat left top;
+}
+
+a {
+	color: #80694E;
+	background-color: transparent;
+}
+
+a:hover {text-decoration: none;}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #5D5849;
+	background-color: transparent;
+}
+h1 {
+	margin: 0 0 .65em 0;
+	font: 180%/190% serif;
+}
+h2 {
+	margin: 0 0 .55em 0;
+	font: 160% serif;
+}
+h3 {
+	margin: 0 0 .8em 0;
+	font: 130% serif;
+}
+h4 {
+	margin: 0 0 1em 0;
+	font: 100% serif;
+}
+h5 {
+	margin: 0 0 1.6em 0;
+	font: 85% serif;
+}
+h6 {
+	margin: 0 0 2.3em 0;
+	font: 70% serif;
+}
+
+img {
+	padding: 2px;
+	border: 2px solid #EAD4AF;
+	background: #FBE7C4;
+}
+img.nostyle {padding:auto; border:0; background:none;}
+div.left {
+	clear: left;
+	margin: .8em 0 0 0;
+}
+div.left img, img.alignleft {
+	float: left;
+	margin: 0 .8em .8em 0;
+}
+div.right {
+	clear: right;
+	margin: .8em 0 0 0;
+}
+div.right img, img.alignright {
+	float: right;
+	margin: 0 0 .1em .8em;
+}
+.acenter {
+	text-align:center;
+}
+
+
+p {
+	margin: .8em 0 1.1em 0;
+}
+
+ul, ol {
+	margin: 1em 0 1em 2.3em;
+	padding: 0;
+}
+li ul, li ol {margin: .7em 0 .7em 2.3em;}
+ul {list-style-type: none;}
+ul ul {list-style-type: disc;}
+ul ul ul {list-style-type: square;}
+ul ul ul ul {list-style-type: circle;}
+ol {list-style-type: decimal;}
+ol ol {list-style-type: upper-alpha;}
+ol ol ol {list-style-type: lower-alpha;}
+ul li {
+	margin: .3em 0;
+	padding: 0 0 0 16px;
+	background: url(../graphics/bullet-transparent/index.png) no-repeat left 3px;
+}
+li ul li {
+	margin: .3em 0;
+	padding: 0;
+	background: url();
+}
+
+dl {
+	margin: 1em 0;
+	padding: 0;
+}
+dt {
+	margin: 0;
+	padding: 0;
+	font-style: italic;
+}
+dd {
+	margin: 0 0 0 2.3em;
+	padding: 0;
+}
+
+table {
+	margin: 1em 0 0 0;
+	padding: 0;
+	border: 1px solid #80694E;
+	border-width: 1px 0 0 1px;
+	border-spacing: 0;
+	caption-side: bottom;
+}
+caption {
+	margin: .3em 0 1.3em 0;
+	text-align: left;
+	font-size: 85%;
+}
+th, td {
+	margin: 0;
+	padding: 4px;
+	border: 1px solid #80694E;
+	border-width: 0 1px 1px 0;
+	vertical-align: top;
+}
+th {
+	text-align: left;
+	font-weight: bold;
+}
+
+em {font-style: italic;}
+strong {font-weight: bold;}
+
+
+
+/**
+ * Layout
+ */ 
+#page {
+	width: 723px;
+	color: #80694E;
+	background: #FFF url(../graphics/body/index.jpg) no-repeat left top;
+}
+
+
+
+/**
+ * Header
+ */ 
+#logo {
+	float: left;
+	width: 300px;
+	height: 190px;
+	overflow: hidden;
+}
+
+#logo h1, #logo h2 {
+	margin: 8px 0 0 24px;
+	padding: 48px 0 0 8px;
+	position: relative;
+}
+
+#logo img {
+	padding: 8px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../graphics/body/index.jpg) no-repeat -24px -8px;
+	border: 0 none;
+}
+
+#logo ul {
+	display: none;
+}
+
+
+
+/**
+ * Content
+ */ 
+#content {
+	float: left;
+	width: 487px;
+	padding: 0 16px 0 20px;
+}
+
+
+
+
+#my_qtrans {
+	position: absolute;
+	left:700px; top: 0px;
+	padding-top: 0;
+	margin-top:0;
+}
+#my_qtrans li {
+	background-position: left top;
+}
+
+
+/**
+ * Main menu
+ */ 
+#main-menu {
+	float: right;
+	width: 423px;
+	height: 190px;
+	margin: -190px 0 0 -423px;
+	overflow: hidden;
+	text-align: right;
+	color: #FFF;
+	background: #43A358 url(../graphics/body/index.jpg) no-repeat -300px top;
+}
+
+#main-menu ul {
+	list-style-type: none;
+}
+#main-menu ul li {
+	background: url();
+}
+
+#main-menu a {
+	font: bold 110%/115% serif;
+	color: #FFF;
+	background: transparent;
+	text-decoration: none;
+}
+
+#main-menu a:hover {
+	color: #5E5848;
+	background: transparent;
+}
+
+#main-menu li.item1 {padding-right: 84px;}
+#main-menu li.item2 {padding-right: 64px;}
+#main-menu li.item3 {padding-right: 50px;}
+#main-menu li.item4 {padding-right: 36px;}
+#main-menu li.item5 {padding-right: 24px;}
+#main-menu li.item6 {padding-right: 14px;}
+#main-menu li.item7 {padding-right: 9px;}
+#main-menu li.item8 {padding-right: 20px;}
+#main-menu li.item9 {position:relative; left:-80px; top: -3.2em;}
+#main-menu li.item10 {position:relative; left:-110px; top: -6.4em;}
+
+
+/**
+ * News
+ */ 
+#news-container {
+	float: right;
+	width: 200px;
+	height: 299px;
+	min-height: 299px;
+	margin: 0; /* WTF??? */
+	color: #917459;
+	background: url(../graphics/news-container/index.jpg) no-repeat;
+}
+
+div > #news-container {
+	height: auto;
+}
+
+#news {
+	padding: 0px .8em 0 .8em;
+	text-align: right;
+	background: url(../graphics/news-bg/index.png) 50px 150px;
+	padding: 0px 10px 0 10px;
+	width: 180px;
+	margin-top: 52px;
+	padding-bottom : 4px;
+}
+
+#news-container .more {
+	width: 135px;
+	height: 25px;
+	margin: 0;
+	padding: 27px 65px 1em 0px;
+	color: #FFF;
+	background: url(../graphics/news-more/index.png) no-repeat;
+	text-align: center;
+}
+
+#news-container .more a {
+	color: #FFF;
+	background: transparent;
+	font: bold 98% serif;
+	text-decoration: none;
+}
+
+
+
+/**
+ * Copyright
+ */ 
+#copyright {
+	clear: both;
+	width: 717px;
+	height: 22px;
+	line-height: 22px;
+	margin: 0;
+	padding: 0 3px;
+	background: #FFF url(../graphics/copyright/index.png) no-repeat left top;
+}
+
+
+
+
+
+
+
+
+
+
+
+#news h3 {
+	margin: 0 0 .6em 0;
+	padding: 0;
+	color: #71553F;
+	/*background-color: #E1D0AC;*/
+	font-size: 180%;
+}
+
+/*#news .calendar-container {
+	float: right;
+	position: relative;
+	margin: -.2em -.8em 0 0;
+	width: .8em;
+	display: inline;
+}*/
+#news p {
+	height: 1%;
+}
+#news>p {
+	height: auto;
+}
+/*#news .calendar {
+	float: right;
+	position: relative;
+	overflow: hidden;
+	width: 42px;
+	height: 41px;
+	margin: 0 -46px 0 0;
+	padding: 0 4px 4px 0;
+	text-align: center;
+	font: 90% Georgia, "New York CE", utopia, serif;
+	color: #CAC5B7;
+	background: #867960 url(graphics/calendar.png) no-repeat right top;
+}
+#news .calendar .day, */#news .calendar .day {
+	display: block;
+	font-size: 170%;
+	font-weight: bold;
+	color: #E7E2D6;
+	background: #867960 url(../graphics/calendar/index.png) no-repeat;
+}
+/*#news .calendar .hidden, */#news .calendar .hidden {display: none;}
+
+
+
+
+
+#news .calendar {
+	float: right;
+	position: relative;
+	display: inline;
+	overflow: hidden;
+	width: 42px;
+	height: 41px;
+	margin: -.2em -56px 0 0;
+	padding: 0 4px 4px 10px;
+	font: 88% Georgia, "New York CE", utopia, serif;
+	text-align: center;
+	color: #CAC5B7;
+	background: transparent url(../graphics/calendar/index.png) no-repeat right top;
+	clear: both;
+}
+
+
+
+#content h1.title, #content h2.title {
+	margin: 0 -11px 0 -17px;
+	padding: 1px 16px 0 32px;
+	height: 42px;
+	line-height: 42px;
+	background: transparent url(../graphics/title-transparent/index.png) repeat-y left top;
+}
+
+
+
+/**
+ * Helpers
+ */ 
+.no-screen {display: none;}
